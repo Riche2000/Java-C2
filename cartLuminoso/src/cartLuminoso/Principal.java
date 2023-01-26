@@ -4,6 +4,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		//Cartel Luminoso
+		//Letra L
 		int anchura=5;
 		int altura=7;
 		
