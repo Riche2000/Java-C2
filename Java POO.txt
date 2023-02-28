@@ -7,3 +7,8 @@ File -> New -> Class
 Le damos un paquete, nombre
 Dentro de las ventanas de opciones seleccionamos las opciones "public y public static void main"
 Si queremos renombrar una clase en Eclipse le nemos que dar clic derecho al archivo y la opcion Refactor -> Rename
+
+Debug con eclipse para solucionar errores
+Damos doble clic del lado izquierdo de la linea de codigo para crear un punto de interrupcion 
+Al lado del play esta el modo Debug
+Si queremos saber la respuesta de una varible la seleccionamos le damos clic derecho y la opcion Watch
