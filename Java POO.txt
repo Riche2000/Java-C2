@@ -12,3 +12,11 @@ Debug con eclipse para solucionar errores
 Damos doble clic del lado izquierdo de la linea de codigo para crear un punto de interrupcion 
 Al lado del play esta el modo Debug
 Si queremos saber la respuesta de una varible la seleccionamos le damos clic derecho y la opcion Watch
+
+					POO
+
+	Abstraccion						Encapsulamiento 
+    Clases y Objetos
+	    Java
+
+Una buena practica es que las clases comienzen con Mayuscilas 
