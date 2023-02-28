@@ -1,0 +1,6 @@
+Java POO
+En eclipse para crear un nuevo proyecto 
+File -> New -> Java Project
+Una vez dentro del fichero creamos una clase con 
+File -> New -> Class
+Dentro de las ventanas de opciones seleccionamos las opciones "public y public static void main"
