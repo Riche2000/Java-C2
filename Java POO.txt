@@ -20,3 +20,6 @@ Si queremos saber la respuesta de una varible la seleccionamos le damos clic der
 	    Java
 
 Una buena practica es que las clases comienzen con Mayuscilas 
+
+Getter: Metodo especifico para obtener una propiedad del opbjeto.
+Setter: Metodo especifico para modificar una propiedad del objeto.
