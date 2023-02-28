@@ -47,7 +47,7 @@ public class drHouse {
 			}
 			if(respuesta.equals("S")) {
 				//IMSS
-				System.out.println("Al IMSS");
+				System.out.println("Jalese pal IMSS");
 				departImss(nombre);
 			}
 		}

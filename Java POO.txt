@@ -1,6 +1,9 @@
 Java POO
+En eclipse para ejecutar el programa con el teclado es con Control + F11
 En eclipse para crear un nuevo proyecto 
 File -> New -> Java Project
 Una vez dentro del fichero creamos una clase con 
 File -> New -> Class
+Le damos un paquete, nombre
 Dentro de las ventanas de opciones seleccionamos las opciones "public y public static void main"
+Si queremos renombrar una clase en Eclipse le nemos que dar clic derecho al archivo y la opcion Refactor -> Rename
