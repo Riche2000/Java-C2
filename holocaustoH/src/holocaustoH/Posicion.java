@@ -8,13 +8,12 @@ public class Posicion {
 		this.posX=0;
 		this.posY=0;
 	}
-
-	//Sobrecarga
+	
 	public Posicion(int posx,int posy) {
 		this.posX=posx;
 		this.posY=posy;
 	}
-	//GETTERS Y SETTERS
+	
 	public int getPosX() {
 		return posX;
 	}
@@ -32,8 +31,8 @@ public class Posicion {
 	}
 	
 	public boolean esIgual(Posicion p) {
-		if(p.posX==this.posX&&p.posY==this.posY)return true;
-		else return false; 
+		if(p.posX==this.posX&&p.posY==this.posY) return true;
+		else return false;
 	}
 
 }

@@ -1,30 +1,20 @@
 package holocaustoH;
 
-public class Personaje {
-	//Propiedades privadas
-	private String nombre;
-	private Posicion pos;
+//Hereda de ObjetoJuego
+public class Personaje extends ObjetoJuego{
 
-	//Metodo
 	public Personaje() {
-		System.out.println("Creacion de un personaje");
 	}
 	
-	//GETTERS Y SETTERS
-	//Usar this. es una buena practica
-	public String getNombre() {
-		return nombre;
+	//GETTERS & SETTERS
+	public void movX(int X) {
+		Posicion pos=super.getPos();
+		pos.setPosX(pos.getPosX()+X);
 	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public Posicion getPos() {
-		return pos;
-	}
-
-	public void setPos(Posicion pos) {
-		this.pos = pos;
+	
+	public void movY(int Y) {
+		Posicion pos=super.getPos();
+		pos.setPosY(pos.getPosY()+Y);
 	}
 
 }
