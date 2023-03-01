@@ -36,3 +36,11 @@ Giagrama UML: diagrams.net
 
 Sobrecarga en POO
 Nos permite definir con el mismo nombe 
+
+Herencia 
+	Clase o objeto Padre
+		   |
+	   objetos hijos  
+
+		Robot
+	Brazo	Torso	CPU

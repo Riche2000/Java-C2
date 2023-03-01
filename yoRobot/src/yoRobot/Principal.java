@@ -16,6 +16,8 @@ public class Principal {
 		
 		System.out.println(r.getPeso());
 		System.out.println(ricardo.getPeso());
+		
+		
 
 	}
 
