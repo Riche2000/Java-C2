@@ -23,3 +23,8 @@ Una buena practica es que las clases comienzen con Mayuscilas
 
 Getter: Metodo especifico para obtener una propiedad del opbjeto.
 Setter: Metodo especifico para modificar una propiedad del objeto.
+
+En eclipse para hacer más facil los getters y setters. Seleccionamos, despues clic derecho Source -> Generate getters and setters 
+y los seleccionamos 
+
+this.varible es una buena practica 
