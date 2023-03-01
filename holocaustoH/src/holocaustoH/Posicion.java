@@ -5,9 +5,15 @@ public class Posicion {
 	private int posY;
 
 	public Posicion() {
-		// TODO Auto-generated constructor stub
+		this.posX=0;
+		this.posY=0;
 	}
 
+	//Sobrecarga
+	public Posicion(int posx,int posy) {
+		this.posX=posx;
+		this.posY=posy;
+	}
 	//GETTERS Y SETTERS
 	public int getPosX() {
 		return posX;

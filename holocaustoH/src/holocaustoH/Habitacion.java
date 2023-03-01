@@ -1,8 +1,13 @@
 package holocaustoH;
 
 public class Habitacion {
-	private Posicion puertaEntrada;
+	//Tamaño de la habitacion
+	public static final int ANCHO=6;
+	public static final int ALTO=6;
 	
+	//Puertas
+	private Posicion puertaEntrada;
+	private Posicion puertaSalida;
 	//metodo
 	public Habitacion() {
 		System.out.println("Creacion de una habitacion");
@@ -16,6 +21,14 @@ public class Habitacion {
 
 	public void setPuertaEntrada(Posicion puertaEntrada) {
 		this.puertaEntrada = puertaEntrada;
+	}
+	
+	public Posicion getPuertaSalida() {
+		return puertaSalida;
+	}
+
+	public void setPuertaSalida(Posicion puertaSalida) {
+		this.puertaSalida = puertaSalida;
 	}
 
 }

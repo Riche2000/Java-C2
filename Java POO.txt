@@ -33,3 +33,6 @@ Diagrama de clases: Describe las clases del sistema, sus atributos, métodos y l
 Giagrama UML: diagrams.net
 
 -Privado +Publico
+
+Sobrecarga en POO
+Nos permite definir con el mismo nombe 
