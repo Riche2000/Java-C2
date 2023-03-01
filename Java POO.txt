@@ -28,3 +28,8 @@ En eclipse para hacer más facil los getters y setters. Seleccionamos, despues c
 y los seleccionamos 
 
 this.varible es una buena practica 
+
+Diagrama de clases: Describe las clases del sistema, sus atributos, métodos y las relaciones entre los objetos
+Giagrama UML: diagrams.net
+
+-Privado +Publico
