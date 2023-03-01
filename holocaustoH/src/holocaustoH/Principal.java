@@ -3,19 +3,21 @@ package holocaustoH;
 public class Principal {
 
 	public static void main(String[] args) {
+		//Generamos una habitacion
+		Habitacion habInicial=new Habitacion();
 		
-		//Posicion posInicial=new Posicion();
-		//posInicial.setPosX(3);
-		//posInicial.setPosY(0);
-		Posicion posInicial=new Posicion(3,0);
+		//Posiconamos las puertas de entrada y salida
+		Posicion puertaIn=new Posicion(0,3);
+		habInicial.setPuertaEntrada(puertaIn);
+		Posicion puertaOut=new Posicion(5,Habitacion.ALTO-1);
+		habInicial.setPuertaSalida(puertaOut);
 		
-		//Generaremos los dos primeros objetos
-		Habitacion hab1=new Habitacion();
+		//Generamos el jugardor y lo almacenamos en la Habitacion
 		Personaje jugador=new Personaje();
-		jugador.setPos(posInicial);
+		habInicial.setJugador(jugador);
 		
-		
-		Juego.pintarHabitacion(hab1);
+		//Pintamos la habitacion
+		Juego.pintarHabitacion(habInicial);
 
 	}
 
